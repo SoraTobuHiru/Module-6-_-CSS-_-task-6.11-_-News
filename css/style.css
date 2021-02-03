@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Play&family=Yusei+Magic&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 400px;
+    background: url(https://cdn.pixabay.com/photo/2014/11/01/17/42/lab-512503_1280.jpg) bottom no-repeat;
+    background-size: cover; 
+}
+
+h1 {
+    position: absolute; 
+    bottom: 0;
+    color: #5a411c;
+    font-size: 4rem;
+    font-family: Play;
+    text-shadow: #a79d7e 1px 1px 0, #e2d8ca 2px 2px 0, 
+    #a79d7e 3px 3px 0, #302417 4px 4px 0, 
+    #a79d7e 5px 5px 0;
+}
+
+.news {
+    background-color: #fff;
+    padding: 50px 0 32px;
+}
+
+article {
+    width: 768px;
+    margin: 0 auto 32px;
+    padding: 6px 15px;
+    border-bottom: 1px solid rgb(131, 95, 48);
+}
+
+article:nth-child(2n) {
+    background-color: rgb(248, 235, 221);
+}
+
+article a {
+    color: rgb(146, 131, 98);
+    text-decoration: none;
+}
+
+article a:hover {
+    color: rgb(63, 41, 13);
+}
+
+article h2 {
+    font-family: Play;
+    margin-bottom: 5px;
+}
+
+.add-text-new::before {
+	content: "NEW! ";
+}
+
+article > a {
+    color: rgb(131, 95, 48);
+}
+
+.article-meta {
+    color: rgb(187, 170, 133);
+    margin-bottom: 5px;
+}
+
+article img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+article p {
+    color: rgb(63, 41, 13);
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer nav a:hover {
+    color: rgb(63, 41, 13);
+    background-size: 100% 2px;
+}
+
+footer .links {
+    margin-bottom: 50px;
+}
+
+footer .links > a {
+    color: rgb(131, 95, 48);
+    padding: 0 25px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(#eec1b5, #3F2923);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.copyright {
+    color: rgb(131, 95, 48);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 0.9vw;
+}
